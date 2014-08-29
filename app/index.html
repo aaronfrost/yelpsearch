@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="yapp">
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="js/components/angular/angular.min.js"></script>
+  <script src="js/components/jquery/dist/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/location.js"></script>
+</head>
+<body ng-controller="MainController">
+  <!--APPNAME-->
+  <h2 ng-cloak>{{appName}}</h2>
+
+
+  <input type="text" ng-model="searchTerm" placeholder="Enter Search Term"/>
+  <input type="text" ng-model="zip" placeholder="Enter City or Zip"/>
+
+
+</body>
+</html>

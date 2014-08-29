@@ -1,0 +1,17 @@
+{
+  "name": "yelp-project",
+  "version": "0.0.0",
+  "description": "This is a test of the Yelp npm module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.6.6",
+    "express": "^4.8.6",
+    "method-override": "^2.1.3",
+    "yelp": "^0.1.1"
+  }
+}

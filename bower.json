@@ -1,0 +1,15 @@
+{
+  "name": "yelp",
+  "main": "server.js",
+  "version": "0.0.0",
+  "componentsDirectory": "app/",
+  "authors": [
+    "frost <aaron.frost@domo.com>"
+  ],
+  "description": "This is my test help app",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "angular": "~1.2.23"
+  }
+}
